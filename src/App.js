@@ -1,8 +1,7 @@
 // src/App.js
 import React from 'react';
 import './App.css';
-import LongLoading from "./LongLoading/LongLoading";
-import {BrowserRouter as Router, Link, Route, Routes} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import ContactUs from "./ContactUs/ContactUs";
 import About from "./About/About";
 import Home from "./Home/Home";

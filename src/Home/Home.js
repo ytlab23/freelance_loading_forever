@@ -34,7 +34,7 @@ function Home() {
             clearInterval(interval);
             clearTimeout(timer);
         };
-    }, []);
+    }, [messages.length]);
 
     useEffect(() => {
         const timer = setInterval(() => {
